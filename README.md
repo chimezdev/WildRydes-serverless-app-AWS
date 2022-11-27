@@ -19,7 +19,7 @@ In this hands-on project I created a simple serverless web application where use
 - The client sends request to a public backend API built using Lambda and API Gateway.
 - Authentication and user management is provided by Amazon Cognito to secure the backend APIs.
 - Data storage is provided by Amazon DynamoDB. Lambda execusion role granted Lambda function for read/write permission to our database.
-![Architecture]()
+![Architecture](https://d1.awsstatic.com/diagrams/Serverless_Architecture.d930970c77b382db6e0395198aacccd8a27fefb7.png)
 
 ## STAGE 1 - Static Web Hosting with Continuou Deployment with AWS Amplify
 AWS Amplify provides sets of tools and products for easy front-end web development, secure and scalable deployment. It provides a git-based workflow for hosting and continuous deployment of full-stack apps. Provides a public website URL for site accessibility.
